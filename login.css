@@ -1,0 +1,153 @@
+body {
+    background-color: black;
+}
+
+.mainbody {
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+
+img.lionpic {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    width: 150px;
+}
+
+.likelion {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    left: 100px;
+    top: 210px;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.maintext {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 100px;
+    top: 310px;
+    width: 600px;
+}
+
+.box1 {
+    background-color: white;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 100px;
+    top: 480px;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 30px;
+    font-style: italic;
+}
+
+.box2 {
+    background-color: white;
+    position: absolute;
+    width: 180px;
+    height: 130px;
+    left: 300px;
+    top: 480px;
+    border-radius: 3px;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 80px;
+    font-style: italic;
+}
+
+.box3 {
+    background-color: white;
+    position: absolute;
+    width: 180px;
+    height: 130px;
+    left: 500px;
+    top: 480px;
+    border-radius: 3px;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 80px;
+    font-style: italic;
+}
+
+.right {
+    text-align: center;
+    margin: auto;
+    margin-top:300px;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    line-height: 50px;
+}
+
+.logintitle {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.id {
+    background-color: white;
+    position: relative;
+    text-align: left;
+    width: 280px;
+    height:40px;
+    border-radius: 20px;
+    border: none;
+    top: 15px;
+    padding-left: 15px;
+    padding-bottom: 2px;
+    font-style: italic;
+}    
+
+.password {
+    background-color: white;
+    position: relative;
+    text-align: left;
+    width: 280px;
+    height:40px;
+    border-radius: 20px;
+    border: none;
+    top: 30px;
+    padding-left: 15px;
+    padding-bottom: 2px;
+    font-style: italic;
+}
+
+.buttom {
+    color: white;
+    font-weight: 900;
+    position: relative;
+    width: 220px;
+    height:40px;
+    border-radius: 20px;
+    background-color: orange;
+    font-size: 17px;
+    top: 35px;
+    
+}
+
+img.pic1 {
+    width: 20px;
+    height: 20px;
+    -webkit-filter: opacity(.5) drop-shadow(0 0 0 gray);
+    filter: opacity(.5) drop-shadow(0 0 0 gray);
+}
+
+img.pic2 {
+    width: 20px;
+    height: 20px;
+    -webkit-filter: opacity(.5) drop-shadow(0 0 0 gray);
+    filter: opacity(.5) drop-shadow(0 0 0 gray);
+}
